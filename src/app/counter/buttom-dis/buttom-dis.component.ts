@@ -1,11 +1,11 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-button-dis',
-  templateUrl: './button-dis.component.html',
-  styleUrl: './button-dis.component.css'
+  selector: 'app-buttom-dis',
+  templateUrl: './buttom-dis.component.html',
+  styleUrl: './buttom-dis.component.css'
 })
-export class ButtonDisComponent {
+export class ButtomDisComponent {
   @Input()
   contador: number = 0;
   @Output()
