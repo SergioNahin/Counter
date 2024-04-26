@@ -1,0 +1,48 @@
+h1 {
+    font-optical-sizing: auto;
+    font-weight: 3rem;
+    font-style: normal;
+    margin-bottom: 40px;
+  }
+  body,html {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    background-color: #73626e;
+  }
+  
+  .container {
+    margin-top: 120px;
+    width: 90%;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #413e4a;
+    margin-bottom: 400px;
+  }
+  
+  hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    );
+  }
+  
+  app-button-add,
+  app-buttom-dis {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  

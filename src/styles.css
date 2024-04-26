@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+button{
+    width: 5rem;
+    border: none;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}

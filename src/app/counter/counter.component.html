@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
-  </head>
-  <body>
-    <h1>{{ title }}: {{ counter }}</h1>
-    <hr />
+</head>
+<body>
+    <div class="container">
+        <h1>{{ title }}: {{ counter }}</h1>
+        <hr />
 
-    <app-button-add 
-    [contador]="counter"
-    (onAdd)="handleCount($event)"
-    ></app-button-add>
+        <app-button-add 
+        [contador]="counter"
+        (onAdd)="handleCount($event)"
+        ></app-button-add>
 
-    <app-buttom-dis
-    [contador]="counter"
-    (onLess)="handleCount($event)"
-    >
-    </app-buttom-dis>
-  </body>
+        <app-buttom-dis
+        [contador]="counter"
+        (onLess)="handleCount($event)"
+        ></app-buttom-dis>
+    </div>
+</body>
 </html>
